@@ -4,5 +4,6 @@
 def run(whatweb, pluginname):
     whatweb.recog_from_file(pluginname, "Script/FocusSlide.js", "southidc")
     whatweb.recog_from_content(pluginname, "southidc")
+    whatweb.recog_from_file(pluginname,"Script/Html.js", "southidc")
 
 

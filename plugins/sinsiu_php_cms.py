@@ -3,4 +3,5 @@
 
 
 def run(whatweb, pluginname):
-    whatweb.recog_from_file(pluginname, "robots.txt", "PHPCMS")
+    whatweb.recog_from_content(pluginname, "sinsiu")
+

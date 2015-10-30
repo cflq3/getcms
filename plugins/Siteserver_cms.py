@@ -5,5 +5,7 @@
 def run(whatweb, pluginname):
     whatweb.recog_from_file(pluginname, "UserCenter/Inc/script.js", "siteserver")
     whatweb.recog_from_header(pluginname, "SITESERVER")
+    whatweb.recog_from_file(pluginname, "robots.txt", "siteserver")
+
 
 
