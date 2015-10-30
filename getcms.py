@@ -13,5 +13,12 @@ except Exception, e:
     print ('Useage: python get_cms.py http://www.baidu.com/')
 else:
     res=web_finder.whatweb(target)
-    print res.return_result()
+    if len(res.return_result())==1:
+        print res.return_result().pop()
+    else:
+        print res.return_result()
+
+
+
+
 
